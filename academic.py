@@ -23,6 +23,7 @@ class Course:
         enrolled_students = [student for student in self.students]
         return enrolled_students
 
+# Create a course instance
 course1 = Course("CS101", "Introduction to Computer Science", 3, "An introduction to the fundamentals of computer science.")
 
 # Add students
